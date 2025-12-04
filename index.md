@@ -31,8 +31,8 @@ This place-based branding piece will walk you through a guided tour of UFSIT’s
 {% endcapture %}
 {% include project.html
    title="Place-Based Branding"
-   image="{{ site.baseurl }}/assets/files/UFSIT_room.png"
-   link="{{ site.baseurl }}/assets/files/CareerFair.pdf"
+   image="/assets/files/UFSIT_room.png"
+   link="/assets/files/CareerFair.pdf"
    content=place-content
 %}
 
@@ -41,8 +41,8 @@ Native advertising aims to mimic the style of an existing site so that it can po
 {% endcapture %}
 {% include project.html
    title="Native Advertising"
-   image="{{ site.baseurl }}/assets/files/NativeAd.jpg"
-   link="{{ site.baseurl }}/assets/files/NativeAd.pdf"
+   image="/assets/files/NativeAd.jpg"
+   link="/assets/files/NativeAd.pdf"
    content=native-content
 %}
 
@@ -51,8 +51,8 @@ The final piece was a content marketing campaign for UFSIT’s second sponsor, V
 {% endcapture %}
 {% include project.html
    title="Content Marketing Campaign"
-   image="{{ site.baseurl }}/assets/files/Vozzcom.png"
-   link="{{ site.baseurl }}/assets/files/ContentMarketing.pdf"
+   image="/assets/files/Vozzcom.png"
+   link="/assets/files/ContentMarketing.pdf"
    content=marketing-content
 %}
 
