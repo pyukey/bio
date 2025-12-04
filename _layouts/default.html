@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <link
+      id="webfont"
+      rel="stylesheet"
+      media="print"
+      href="https://www.nerdfonts.com/assets/css/webfont.css"
+    />
+
+    <script src="/assets/jquery-3.7.1.min.js"></script>
+    <script src="/assets/theme-stub.js"></script>
+  </head>
+
+  <body>
+    <canvas id="starfield"></canvas>
+    <button aria-label="Theme Switch" class="theme-switch" id="theme-switch">
+      <div></div>
+    </button>
+
+    {% include header.html %} {{ content }}
+
+    <script>
+      $("#webfont").attr("media", "all");
+    </script>
+    <script src="/assets/starfield.js"></script>
+  </body>
+</html>
